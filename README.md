@@ -118,3 +118,27 @@ en esta rama se suele hacer pruebas de QA y al inicializarse toma la ultima vers
 ### Git Kraken
 ![startRelease](img/releasekraken.png)
 ![startRelease2](img/releasekraken2.png)
+
+### Finalizar un release
+
+Es importante destacar que un release se finaliza cuando 
+el proyecto está lo suficientemente avanzado para salir a producción,
+o se encuentra listo para pruebas de integracion.
+
+para finalizar un release utilizamos el comando de consola
+
+ // Comando para finalizar release
+ git flow release finish "Nombre de version"
+ 
+Ejemplo:
+![](https://i.ibb.co/x8Q3QFC/finish-Release.png)
+
+Nos pedirá añadir  un comentario para el tag de la versión
+![](https://i.ibb.co/FH7NJBF/tag-Release.png)
+
+ // Finalmente, se publica la version
+ git push origin --tags
+
+Y git nos muestra un resumen de lo realizado.
+![](https://i.ibb.co/hghc3DJ/resumen.png)
+
