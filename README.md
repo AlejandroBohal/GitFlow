@@ -8,15 +8,6 @@ Guia de uso  GitFlow
 - Alejandro Bohorquez 
 - Andrés Marcelo
 
-``` git flow init ```
-![](https://i.ibb.co/G20hht9/Gitflow-1.png)
-
-en GitKraken, clonamos el repositorio y editamos las preferencias.
-![](https://i.ibb.co/qpf41gm/Gitflow-3.png)
-
-
-
-
 
 ## Que es GitFlow
 GitFlow es un flujo de trabajo aplicado a un repositorio Git. Vincent Driessen fue el encargado de popularizarlo, definiendo un modelo estricto de ramificación diseñado en torno a los lanzamientos del proyecto. Es ideal para proyectos que lleven una planificación de entregas iterativas. Permite la paralelización del desarrollo mediante ramas independientes para la preparación, mantenimiento y publicación de versiones del proyecto así como soporta la reparación de errores en cualquier momento.
@@ -40,7 +31,7 @@ GitFlow es un flujo de trabajo aplicado a un repositorio Git. Vincent Driessen f
 
 ![Esctructura GitFlow](img/estructura.png) 
 
-#Contenido de cada rama
+## Contenido de cada rama
 
 Existen 4 diferentes tipos de ramas que GitFlow nos da. En cada una de ellas tendremos
 diferentes contenidos para tener de manera mas organizada nuestro codigo. Las diferentes 
@@ -51,13 +42,24 @@ ramas son:
 4. hotfix
 
 ![Image of GitFlow](https://cleventy.com/wp-content/uploads/2020/03/git-model-1.png)
-![](https://i.ibb.co/BzZ0mYC/Gitflow-2.png)
 
+## Inicializando un repositorio con GitFlow
+
+Las ventajas de inicializar un repositorio con GitFlow es ordenar
+el flujo de trabajo en ramas de la siguiente manera.
+
+ git flow init 
+
+![](https://i.ibb.co/G20hht9/Gitflow-1.png)
+
+en GitKraken, clonamos el repositorio y editamos las preferencias.
+
+![](https://i.ibb.co/BzZ0mYC/Gitflow-2.png)
 
 y observamos un ejemplo de flujo de trabajo en GitKraken
 
+![](https://i.ibb.co/qpf41gm/Gitflow-3.png)
 
-el flujo de trabajo en ramas de la siguiente manera.
-Las ventajas de inicializar un repositorio con GitFlow ordenar
 
-## Inicializando un repositorio con GitFlow
+
+
