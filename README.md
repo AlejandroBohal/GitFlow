@@ -33,13 +33,12 @@ GitFlow es un flujo de trabajo aplicado a un repositorio Git. Vincent Driessen f
 
 ## Contenido de cada rama
 
-Existen 4 diferentes tipos de ramas que GitFlow nos da. En cada una de ellas tendremos
-diferentes contenidos para tener de manera mas organizada nuestro codigo. Las diferentes 
-ramas son:
-1. develop
-2. feature
-3. release
-4. hotfix
+Existen 5 diferentes tipos de ramas que GitFlow nos da. En cada una de ellas tendremos diferentes contenidos para tener de manera mas organizada nuestro codigo. Las diferentes ramas son:
+1. master: guarda todo el historial oficial de lanzamientos de nuestro código
+2. develop: funciona como una rama de integración para los diferentes features creados
+3. feature: area de desarrolo para cada funcionalidad deseada
+4. release: esta rama nos permite arreglar bugs pero no agregar features 
+5. hotfix: esta rama permite arreglar de manera rápida errores que han salido a producción
 
 ![Image of GitFlow](https://cleventy.com/wp-content/uploads/2020/03/git-model-1.png)
 
@@ -114,7 +113,7 @@ en esta rama se suele hacer pruebas de QA y al inicializarse toma la ultima vers
 
  ``` git flow release start <nombre de version > ```
  
-![startReleaseConsola](img/releaseconsola.png)
+![startReleaseConsola](https://cdn.discordapp.com/attachments/718609326071218189/718965575019135106/unknown.png)
 
 ### Git Kraken
 ![startRelease](img/releasekraken.png)
