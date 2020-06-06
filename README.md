@@ -60,6 +60,30 @@ y observamos un ejemplo de flujo de trabajo en GitKraken
 
 ![](https://i.ibb.co/qpf41gm/Gitflow-3.png)
 
+## Realizar un Hotfix  
 
+En consola podemos realizar un hotfix con el siguiente comando:
 
+``` $ git flow hotfix start hotfix_branch  ```
+
+Con GitKraken podemos inicializar un hotfix de la siguiente forma:  
+
+![](https://cdn.discordapp.com/attachments/718609326071218189/718951834844266506/unknown.png)
+
+ 
+
+Se recomienda poner el nombre del hotfix con el versionamiento correspondiente. Ej: v1.1 - v0.1.1.  
+
+Una vez ya esten los cambios realizados, debido a que Hotfix no posee un comando de publicación  
+basta con realizar el commit y usar el comando:  
+
+``` $ git flow hotfix finish ```  
+
+Realizar la documentación de los cambios para el merge con develop y con master y hacer push.  
+
+En GitKraken Basta con Finalizar el hotfix en el mismo panel donde se inició, si se desea  
+
+borrar la rama hotfix, comentar los cambios y hacer push a Origin.
+
+ 
 
