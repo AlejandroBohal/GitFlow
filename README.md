@@ -61,5 +61,15 @@ y observamos un ejemplo de flujo de trabajo en GitKraken
 ![](https://i.ibb.co/qpf41gm/Gitflow-3.png)
 
 
+## Publicar Feature 
+
+El comando en consola para hacer la publicación del feature
+
+``` git flow feature publish MYFEATURE ```
+
+En GitKraken es haciendo solamente un push de la rama que queremos
+
+
+
 
 
