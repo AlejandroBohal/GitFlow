@@ -60,7 +60,24 @@ y observamos un ejemplo de flujo de trabajo en GitKraken
 
 ![](https://i.ibb.co/qpf41gm/Gitflow-3.png)
 
+# Comandos en GitFlow
 
+### Inicializar un feature
+
+En la terminal podemos utilizar el siguiente codigo para poder inicializar un feature
+
+```
+    git flow feature start NOMBREFEATURE
+```
+
+De igual manera mediante GitKraken podemos hacer lo mismo de la siguiente manera:
+
+![Image of GitKraken1](https://cdn.discordapp.com/attachments/718609326071218189/718950450040274964/Screen_Shot_2020-06-06_at_5.04.31_PM.png)
+![Image of GitKraken2](https://cdn.discordapp.com/attachments/718609326071218189/718950453324414976/Screen_Shot_2020-06-06_at_5.05.48_PM.png)
+
+Y de esta manera quedarian nuestras ramas, en donde la rama morada, roja, naranja, amarilla y verde son features creadas
+para poder tener las diferentes 
+![Image of GitKraken3](https://cdn.discordapp.com/attachments/718609326071218189/718945365331673158/Screen_Shot_2020-06-06_at_4.52.06_PM.png)
 
 
 
