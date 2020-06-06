@@ -169,6 +169,4 @@ basta con realizar el commit y usar el comando:
 
 Realizar la documentación de los cambios para el merge con develop y con master y hacer push.  
 
-En GitKraken Basta con Finalizar el hotfix en el mismo panel donde se inició, si se desea  
-
-borrar la rama hotfix, comentar los cambios y hacer push a Origin.
+En GitKraken Basta con Finalizar el hotfix en el mismo panel donde se inició, si se desea borrar la rama hotfix, comentar los cambios y hacer push a Origin.
