@@ -1,3 +1,9 @@
 # GitFlow
 Guia de uso  GitFlow
-Hola Mundo :)
+
+## Integrantes:
+- Carlos Gomez
+- Juan Rojas
+- Santiago Rubiano
+- Alejandro Bohorquez 
+- Andrés Marcelo
