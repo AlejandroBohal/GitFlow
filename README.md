@@ -94,4 +94,4 @@ en esta rama se suele hacer pruebas de QA y al inicializarse toma la ultima vers
 
 ### Git Kraken
 ![startRelease](img/releasekraken.png)
-![startRelease2](img/releasekraken.png)
+![startRelease2](img/releasekraken2.png)
