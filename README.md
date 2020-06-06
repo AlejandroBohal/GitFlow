@@ -60,15 +60,103 @@ y observamos un ejemplo de flujo de trabajo en GitKraken
 
 ![](https://i.ibb.co/qpf41gm/Gitflow-3.png)
 
-## Realizar un Hotfix  
+ 
+# Comandos en GitFlow
 
-En consola podemos realizar un hotfix con el siguiente comando:
+### Inicializar un feature
+
+En la terminal podemos utilizar el siguiente codigo para poder inicializar un feature
+
+```
+    git flow feature start NOMBREFEATURE
+```
+
+De igual manera mediante GitKraken podemos hacer lo mismo de la siguiente manera:
+
+![Image of GitKraken1](https://cdn.discordapp.com/attachments/718609326071218189/718950450040274964/Screen_Shot_2020-06-06_at_5.04.31_PM.png)
+![Image of GitKraken2](https://cdn.discordapp.com/attachments/718609326071218189/718950453324414976/Screen_Shot_2020-06-06_at_5.05.48_PM.png)
+
+Y de esta manera quedarian nuestras ramas, en donde la rama morada, roja, naranja, amarilla y verde son features creadas
+para poder tener las diferentes 
+![Image of GitKraken3](https://cdn.discordapp.com/attachments/718609326071218189/718945365331673158/Screen_Shot_2020-06-06_at_4.52.06_PM.png)
+
+
+## Publicar y finalizar Feature 
+
+### Publicar
+
+El comando en consola para hacer la publicación del feature
+
+``` git flow feature publish MYFEATURE ```
+
+![PublishFeature](img/PublicarFeatureConsola.PNG) 
+
+En GitKraken es haciendo solamente un push de la rama que queremos
+
+![PublishFeature2](img/PublicarFeatureGitKraken.PNG)
+
+### Finalizar
+
+El comando en consola para hacer la finalización del feature
+
+``` git flow feature finish MYFEATURE ```
+
+En GitKraken en el panel de la izquierda vemos la opcion de gitflow en la cual podemos finalizar de la rama que queremos
+
+![FinishFeature2](img/FinalizarFeatureGitKraken.PNG)
+
+
+## Inicializar un realease 
+Esta función se realiza cuando se ha terminado un sprint, cuando se tiene el codigo listo para entregar a producción
+en esta rama se suele hacer pruebas de QA y al inicializarse toma la ultima version de la rama develop
+
+### En consola 
+
+ ``` git flow release start <nombre de version > ```
+ 
+![startReleaseConsola](img/releaseconsola.png)
+
+### Git Kraken
+![startRelease](img/releasekraken.png)
+![startRelease2](img/releasekraken2.png)
+
+### Finalizar un release
+
+Es importante destacar que un release se finaliza cuando 
+el proyecto está lo suficientemente avanzado para salir a producción,
+o se encuentra listo para pruebas de integracion.
+
+para finalizar un release utilizamos el comando de consola
+
+ // Comando para finalizar release
+ ``` git flow release finish "Nombre de version" ```
+ 
+Ejemplo:  
+
+![](https://i.ibb.co/x8Q3QFC/finish-Release.png)
+
+Nos pedirá añadir  un comentario para el tag de la versión  
+
+![](https://i.ibb.co/FH7NJBF/tag-Release.png)  
+
+
+ // Finalmente, se publica la version  
+ ``` git push origin --tags ```
+
+Y git nos muestra un resumen de lo realizado.  
+
+![](https://i.ibb.co/hghc3DJ/resumen.png)  
+
+
+### Realizar un Hotfix  
+
+En consola podemos realizar un hotfix con el siguiente comando:  
 
 ``` $ git flow hotfix start hotfix_branch  ```
 
 Con GitKraken podemos inicializar un hotfix de la siguiente forma:  
 
-![](https://cdn.discordapp.com/attachments/718609326071218189/718951834844266506/unknown.png)
+![](https://cdn.discordapp.com/attachments/718609326071218189/718951834844266506/unknown.png)  
 
  
 
@@ -84,6 +172,3 @@ Realizar la documentación de los cambios para el merge con develop y con master
 En GitKraken Basta con Finalizar el hotfix en el mismo panel donde se inició, si se desea  
 
 borrar la rama hotfix, comentar los cambios y hacer push a Origin.
-
- 
-
