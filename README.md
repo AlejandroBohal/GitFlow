@@ -17,3 +17,7 @@ Hola Mundo :)
 * El proyecto tiene cambios frecuentes y se requiere actualizar el ambiente de producción garantizando continuidad en la operación.
 * El proyecto tiene un nivel de complejidad considerable.
 * Se desea tener un proceso de soporte a errores efectivo con actualizaciones rápidas.
+
+## Esctructura GitFlow 
+
+![Esctructura GitFlow](img/estructura.png) 
