@@ -81,7 +81,7 @@ El comando en consola para hacer la finalización del feature
 
 ``` git flow feature finish MYFEATURE ```
 
-En GitKraken es haciendo solamente un push de la rama que queremos
+En GitKraken en el panel de la izquierda vemos la opcion de gitflow en la cual podemos finalizar de la rama que queremos
 
 ![FinishFeature2](img/FinalizarFeatureGitKraken.PNG)
 
