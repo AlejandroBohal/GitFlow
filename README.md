@@ -63,3 +63,18 @@ y observamos un ejemplo de flujo de trabajo en GitKraken
 
 
 
+
+
+## Inicializar un realease 
+Esta función se realiza cuando se ha terminado un sprint, cuando se tiene el codigo listo para entregar a producción
+en esta rama se suele hacer pruebas de QA y al inicializarse toma la ultima version de la rama develop
+
+### En consola 
+
+ ``` git flow realease start <nombre de version > ```
+ 
+![startReleaseConsola](img/releaseconsola.png)
+
+### Git Kraken
+![startRelease](img/releasekraken.png)
+![startRelease2](img/releasekraken.png)
